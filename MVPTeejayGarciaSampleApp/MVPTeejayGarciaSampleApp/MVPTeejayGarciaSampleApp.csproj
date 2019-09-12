@@ -98,6 +98,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="app\resources\src\less\global\global.less" />
+    <Content Include="app\resources\src\less\master.less" />
+    <Content Include="app\resources\src\less\pages\home\home.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,12 +109,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\resources\build\js.15b76017ffa2-435f-a3b5-1893704a1c7d.js" />
+    <Content Include="app\resources\build\js.2e5cabe6dc7f-4b69-8625-db98c5f49c8f.js" />
+    <Content Include="app\resources\build\js.5b4453a8b8c1-4a0b-bb79-8f6698390779.js" />
+    <Content Include="app\resources\build\js.a6324ace7462-48f9-9403-4df1efa30f0d.js" />
+    <Content Include="app\resources\build\js.b68c3db47638-4769-be91-a4bcad20c372.js" />
+    <Content Include="app\resources\build\js.f1994a7f9253-4559-9d04-dc07ebc1142d.js" />
+    <Content Include="app\resources\src\js\app\shared\components\nav-header.js" />
+    <Content Include="app\resources\src\js\core\route\route.js" />
+    <Content Include="app\views\gruntTemplates\index.html" />
+    <Content Include="app\views\main.html" />
+    <Content Include="app\views\templates\component-templates\nav-header.html" />
+    <Content Include="GruntFile.js" />
+    <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\content\" />
+    <Folder Include="app\resources\dist\" />
+    <Folder Include="app\resources\src\js\app\modules\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

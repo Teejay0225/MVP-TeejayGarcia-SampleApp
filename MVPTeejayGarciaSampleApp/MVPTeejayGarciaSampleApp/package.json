@@ -1,0 +1,21 @@
+{
+  "name": "teejay-application",
+  "version": "1.0.0",
+  "main": "GruntFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teejay Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "uuid": "^3.3.2"
+  },
+  "description": ""
+}
